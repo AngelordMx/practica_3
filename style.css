@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#banner{
+    display: grid;
+    background-color:#4267B2;
+    grid-template-columns: 70% 12.5% 12.5% auto;
+    grid-template-rows: 100px;
+}
+
+#banner div{
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+#logo{
+    display: flex;
+    width: auto;
+    height: auto;
+}
