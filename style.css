@@ -9,12 +9,14 @@
     background-color:#4267B2;
     grid-template-columns: 70% 10% 10% 5% 5%;
     grid-template-rows: 100px;
+    
 }
 
 .banner div{
     color: white;
     justify-content: center;
     text-align: center;
+    margin-bottom: 15px;
     
 }
 #item1 {
@@ -24,8 +26,24 @@
     align-items: flex-end; 
     justify-content: flex-end; 
     height: 100%;
+    font-size: 14px;
+    
+    
 }
 
+#itemm1{
+    background-color: white;
+    width: 180px;
+}
+#item2{
+    background-color: #28437b;
+    width: 1;
+    margin-left: 20px;
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+    
+}
 
 #logo{
     text-align: center;
