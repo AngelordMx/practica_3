@@ -66,10 +66,10 @@
 
 #columna1 {
     grid-area: columna1; 
-    background-color: #ff0000;
     height: 70px;
     font-size:45px;
     padding: 50px;
+    color: #142d5f;
 }
 
 #columna2 {
@@ -79,10 +79,34 @@
     height: 80vh;
 }
 
-#lado-extra {
+#lado-extra1 {
     height: 70px;
-    background-color: #ff00c8;
+    color: #142d5f
     grid-area: lado-extra; 
-    padding-left: 50px;
-    padding: 50px;
+    padding-left:150px;
+    padding-top: 50px;
+    font-size: 45px;
+}
+#lado-extra2 {
+    height: 70px;
+    color: #142d5f;
+    grid-area: lado-extra; 
+    padding-left:150px;
+    font-size: 40px;
+}
+
+.fondo2 {
+    display: grid;
+    grid-template-columns: 40% 40%;
+
+}
+
+#fondoORD{
+    margin-top: 25px;
+    text-align: end;
+    color: #28437b;
+}
+
+#fondoCUAD{
+    padding: 23px;
 }
