@@ -33,7 +33,7 @@
 
 #itemm1{
     background-color: white;
-    width: 180px;
+    width: 130px;
 }
 #item2{
     display: flex;
@@ -70,13 +70,13 @@
     height: 70px;
     font-size:45px;
     font-family: Helvetica, sans-serif;
-    padding: 50px;
+    padding: 30px;
     color: #142d5f;
 }
 
 #columna2 {
     grid-area: columna2; 
-    padding: 50px;
+    padding: 30px;
     height: 80vh;
     
     
@@ -94,7 +94,7 @@
     grid-area: lado-extra; 
     padding-left:150px;
     font-family: Helvetica, sans-serif;
-    padding-top: 50px;
+    padding-top: 20px;
     font-size: 45px;
 }
 #lado-extra2 {
@@ -187,7 +187,7 @@
 }
 
 #footer1{
-    margin-left: 210px;
+    margin-left: 130px;
     color: #002164;
     font-family: Helvetica, sans-serif;
 }
