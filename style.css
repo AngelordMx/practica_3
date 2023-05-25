@@ -196,3 +196,33 @@
     color: gray;
     font-family: Helvetica, sans-serif;
 }
+
+.sig{
+    display: grid;
+    margin : 30px;
+    margin-right: 350px;
+margin-left: 350px;
+    grid-template-columns: auto;
+    align-items: center;
+    background-color:limegreen;
+    color: white;
+    
+
+}
+.sig-div{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    
+}
+#itemsig {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    text-align: center;
+    align-items: center;
+}
