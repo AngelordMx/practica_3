@@ -53,6 +53,7 @@
     justify-content: left;
     display: flex;
     width: auto;
+    
     height: auto;
 }
 
@@ -68,36 +69,47 @@
     grid-area: columna1; 
     height: 70px;
     font-size:45px;
+    font-family: Helvetica, sans-serif;
     padding: 50px;
     color: #142d5f;
 }
 
 #columna2 {
     grid-area: columna2; 
-    background-color: #00ff37;
     padding: 50px;
     height: 80vh;
+    
+    
+}
+#mapa{
+    margin-top: 50px;
+    margin-left: 50px;
+    display: flex;
+    height: 300px;
 }
 
 #lado-extra1 {
     height: 70px;
-    color: #142d5f
+    color: #142d5f;
     grid-area: lado-extra; 
     padding-left:150px;
+    font-family: Helvetica, sans-serif;
     padding-top: 50px;
     font-size: 45px;
 }
 #lado-extra2 {
     height: 70px;
     color: #142d5f;
-    grid-area: lado-extra; 
+    font-family: Helvetica, sans-serif;
     padding-left:150px;
     font-size: 40px;
 }
 
 .fondo2 {
     display: grid;
+    margin-top: 30px;
     grid-template-columns: 40% 40%;
+    grid-template-rows: 15% 15% 15% 15% 15% 15%   ;
 
 }
 
@@ -105,8 +117,82 @@
     margin-top: 25px;
     text-align: end;
     color: #28437b;
+    margin: 10px;
+
 }
 
 #fondoCUAD{
-    padding: 23px;
+    margin: 10px;
+    border: 1px solid black;
+
+}
+
+.birth{
+    display: flex;
+    margin : 10px;
+    margin-right: 10000px;
+    
+    
+
+}
+.birth-div{
+    color: white;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+#itembirt1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    margin-right: 90px;
+}
+#itembirt2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    margin-right: 90px;
+}
+#itembirt3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid black;
+    margin-right: 90px;
+       
+}
+#fondoABA{
+    display: grid;
+    grid-template-columns: 100%;
+     
+}
+
+#columnaABA1 {
+    height: 70px;
+    font-size:20px;
+    color: #142d5f;
+    text-align: left;
+}
+
+#separacion{
+    margin-left: 100px;
+}
+
+#footer{
+    display: grid;
+    grid-template-columns: 40% 50%;
+}
+
+#footer1{
+    margin-left: 210px;
+    color: #002164;
+    font-family: Helvetica, sans-serif;
+}
+
+#footer2{
+    color: gray;
+    font-family: Helvetica, sans-serif;
 }
